@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #19bc9b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border: 1px solid;
+}
+
+.loginCont {
+  /* border: 1px solid; */
+  width: 450px;
+  height: 300px;
+  display: block;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.formInput {
+  border-radius: 12px !important;
+  min-height: 45px;
+  width: 63% !important;
+  background-color: white !important;
+  padding-left: 9px !important;
+}
+
+.App-form {
+  background-color: #61dafb;
+}
+
+.slider {
+  transition: all .5s ease-in-out;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.content {}
+
+.tabSwitcher {
+  display: flex;
+  justify-content: center;
+  color: #707C8B;
+}
+
+.tabSwitcherItem {
+  color: #707C8B;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 0 10px;
+  padding-bottom: 5px;
+}
+
+.tabSwitcherItem:first-child {
+  /* margin-left: 0; */
+}
+
+/* .tabSwitcherItem--Active {
+  color: white;
+  border-bottom: 1px solid #199087;
+} */
+
+.tabActive {
+  color: white;
+  border-bottom: 1px solid #199087;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
